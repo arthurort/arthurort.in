@@ -1,4 +1,5 @@
-<html lang="fr"><head>
+<html>
+<head>
     <!-- Google Tag Manager -->
     <script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-KNSS957&amp;t=gtm2&amp;cid=377773536.1504097327"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PW2DCDC"></script><script>
         (function(w, d, s, l, i) {
@@ -20,11 +21,8 @@
     <meta name="theme-color" content="#f2c400">
     <meta name="apple-mobile-web-app-status-bar-style" content="#f2c400">
     <link rel="shortcut icon" href="assets/favico.png">
-    <!-- <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/master.css" media="screen" title="no title"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- <title>Arthur Ortin</title> -->
     <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
