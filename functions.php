@@ -1,5 +1,6 @@
 <?php
-
+add_theme_support('menus');
+add_theme_support('post-thumbnails');
 //Chargement des feuilles de style & police
     function wpao_theme_styles(){
         // wp_enqueue_style("fontMonserrat_css", 'https://fonts.googleapis.com/css?family=Montserrat');
