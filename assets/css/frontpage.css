@@ -1,0 +1,156 @@
+html, body {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 196, 0);
+}
+
+#arthurpp {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: flex;
+}
+#desc{
+    font-size: .73em;
+    width: 220px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+
+}
+#card {
+    background-color: white;
+    max-width: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    text-align: center;
+}
+#card ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#links li {
+    text-align: left;
+    font-size: 2em;
+}
+
+#links .link a {
+    display: block;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+
+/*#links .link a:hover {
+    position: relative;
+    left: 10px;
+}*/
+
+#links .link a:before {
+    margin-right: 10px;
+    position: relative;
+    padding-left: 5px;
+    font-family: "FontAwesome";
+
+}
+
+/*
+    Twitter Button
+*/
+
+#twitter a {
+    border: 2px #1DA1F2 solid;
+    color: #1DA1F2;
+    transition: .2s;
+}
+
+#twitter a:before {
+    content: "\f099";
+}
+
+#twitter a:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+
+/*
+    Linkedin Button
+*/
+
+#linkedin a {
+    border: 2px #0177B5 solid;
+    color: #0177B5;
+    transition: .2s;
+}
+
+#linkedin a:before {
+    content: "\f0e1"
+}
+
+#linkedin a:hover {
+    background-color: #0177B5;
+    color: white;
+}
+
+
+/*
+    GitHub Button
+*/
+
+#github a {
+    border: 2px #000000 solid;
+    color: #000000;
+    transition: .2s;
+}
+
+#github a:before {
+    content: "\f09b";
+}
+
+#github a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+/*
+    Resume Button
+*/
+
+#resume a {
+    border: 2px #ad1b1b solid;
+    color: #ad1b1b;
+    transition: .2s;
+}
+
+#resume a:before {
+    content: "\f15b";
+}
+
+#resume a:hover {
+    background-color: #ad1b1b;
+    color: white;
+}
