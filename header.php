@@ -21,7 +21,7 @@
 
     <meta name="theme-color" content="#f2c400">
     <meta name="apple-mobile-web-app-status-bar-style" content="#f2c400">
-    <link rel="shortcut icon" href="assets/favico.png">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory') ?>/assets/img/favico.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <?php if( is_front_page() ) { ?>
