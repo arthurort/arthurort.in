@@ -12,7 +12,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
     <div id="wrapper">
         <div id="card">
             <h1>Arthur Ortin</h1>
-            <img id="arthurpp" src="assets/img/arthurortin.jpg" alt="Picture of Arthur Ortin">
+            <img id="arthurpp" src="<?php echo the_post_thumbnail_url(); ?>">
             <span id="desc">Student @ Web School Factory, Paris</span>
             <ul id="links">
                 <li id="github" class="link"><a href="https://github.com/arthurort">GitHub</a></li>
