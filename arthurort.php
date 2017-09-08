@@ -11,9 +11,9 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
     <!-- End Google Tag Manager (noscript) -->
     <div id="wrapper">
         <div id="card">
-            <h1>Arthur Ortin</h1>
+            <h1><?php echo bloginfo("name"); ?></h1>
             <img id="arthurpp" src="<?php echo the_post_thumbnail_url(); ?>">
-            <span id="desc">Student @ Web School Factory, Paris</span>
+            <span id="desc"><?php echo bloginfo("description"); ?></span>
             <ul id="links">
                 <li id="github" class="link"><a href="https://github.com/arthurort">GitHub</a></li>
                 <li id="linkedin" class="link"><a href="https://fr.linkedin.com/in/arthurortin">Linkedin</a></li>
